@@ -1,8 +1,59 @@
-This repository provides a model for detecting tables in images and converting their content into structured Excel files. 
-I used the Ultralytics library and YOLO models to automate the process of table detection and content extraction from a variety of image types. 
-To build the foundation of the system, I leveraged pre-trained YOLO models and a dataset from Roboflow. 
+# Table Recognition in Images
 
-To enhance the model's accuracy, I systematically adjusted hyperparameters, including batch size, image size, and the number of training epochs. 
-I evaluated the system's performance using metrics such as F1 score, mean average precision (mAP), precision, recall, and intersection over union (IoU). 
-By analyzing these metrics, I fine-tuned the system to ensure it achieved high accuracy and reliability across diverse scenarios. 
+Welcome to the **Table Recognition in Images** project! This repository showcases methods for detecting and recognizing tables present within images using image processing and machine learning techniques.
 
+## Overview
+
+Automatically extracting tabular data from images is a challenging yet essential task for digitizing documents and enabling data analysis. This project implements a solution that locates tables in images and extracts their structure—an important capability for automating data extraction from scanned documents, PDFs, and real-world images.
+
+## Features
+
+- Detects table boundaries in document images using deep learning.
+- Extracts tabular structure for data conversion and analysis.
+- Jupyter Notebook (`Table_recognition .ipynb`) providing clear code, comments, and visualizations.
+      
+## Requirements
+
+Ensure you have the following installed:
+
+- Python 3.x
+- OpenCV
+- NumPy
+- Matplotlib
+- Jupyter Notebook
+
+Install dependencies with:
+
+```bash
+pip install opencv-python numpy matplotlib jupyter
+```
+
+## Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Simonatraj/Table-recognition-in-images.git
+   cd Table-recognition-in-images
+   ```
+
+2. **Launch Jupyter Notebook:**
+   ```bash
+   jupyter notebook
+   ```
+
+3. **Open and run `Table_recognition .ipynb`:**
+   - Execute cells sequentially to process sample images, visualize intermediate steps, and observe detected tables.
+
+## Usage
+
+- Loads images containing tables (sample images or your own).
+- Preprocesses images (grayscale conversion, edge detection, contour analysis).
+- Applies algorithms (e.g., morphological operations, connected components) to identify potential tables.
+- Extracts each detected table as a separate image or dataset.
+- Visualizes results with bounding boxes and extracted tables.
+
+## Example Results
+
+- Output images showing bounding boxes drawn around detected tables.
+- Intermediate steps demonstrating preprocessing and detection pipeline.
+- Tables extracted and ready to be converted for further analysis or export.
