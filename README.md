@@ -22,17 +22,10 @@ This project, "Table Recognition in Images," focuses on detecting and recognizin
 - **OpenCV**
 - **NumPy**
 - **Matplotlib**
-- **Google Colab** 
-
-Install dependencies (for local setup):
-
-```bash
-pip install opencv-python numpy matplotlib jupyter
-```
+- **Google Colab**
+- 
 
 ### Using the Project on Google Colab
-
-Since you want to use Google Colab (and not Jupyter Notebook locally), here’s what you should do:
 
 1. **Open Google Colab:**  
    Go to [Google Colab](https://colab.research.google.com).
@@ -51,7 +44,7 @@ Since you want to use Google Colab (and not Jupyter Notebook locally), here’s 
    !pip install opencv-python numpy matplotlib
    ```
 
-4. **Upload Images (Optional):**  
+4. **Upload Images:**  
    If you want to process your own images, use Colab’s upload feature to add them to the session.
 
 5. **Run Cells Sequentially:**  
