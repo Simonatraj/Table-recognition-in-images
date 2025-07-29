@@ -22,7 +22,7 @@ This project, "Table Recognition in Images," focuses on detecting and recognizin
 - **OpenCV**
 - **NumPy**
 - **Matplotlib**
-- **Jupyter Notebook** (for local use—can be swapped for Google Colab)
+- **Google Colab** 
 
 Install dependencies (for local setup):
 
