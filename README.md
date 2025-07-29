@@ -1,4 +1,4 @@
-**Table Recognition in Images: Project Overview and How to Use with Google Colab**
+**Table Recognition in Images**
 
 This project, "Table Recognition in Images," focuses on detecting and recognizing tables within images using image processing and machine learning techniques. Here’s a quick summary and guidance for running it, especially with Google Colab:
 
