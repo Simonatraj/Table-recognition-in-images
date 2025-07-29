@@ -1,6 +1,6 @@
 # Table Recognition in Images
 
-Welcome to the **Table Recognition in Images** project! This repository showcases methods for detecting and recognizing tables present within images using image processing and machine learning techniques.
+This repository showcases methods for detecting and recognizing tables present within images using image processing and machine learning techniques.
 
 ## Overview
 
